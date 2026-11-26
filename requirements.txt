@@ -1,0 +1,10 @@
+# Python 3.10+.  Install:  python -m pip install -r requirements.txt
+# You may add any other package your approach needs; list it here so judges can reproduce your results.
+numpy>=1.26,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+qiskit>=2.1,<3
+merlinquantum>=0.4.2,<0.5 # Quandela MerLin (photonic QML, import merlin); also installs PyTorch and Perceval
+pylatexenc>=2.10          # only needed to draw circuits with matplotlib
